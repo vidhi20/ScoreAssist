@@ -4,7 +4,7 @@
 
 Tested on **30 real nights scored by sleep experts** (36,839 thirty-second windows) from the public Sleep-EDF dataset. Runs fully offline, with no API key.
 
-Dashboard: open `docs/index.html` (or the GitHub Pages link for this repo).
+**Live dashboard:** [vidhi20.github.io/ScoreAssist](https://vidhi20.github.io/ScoreAssist/) (also in `docs/index.html`).
 
 ## The problem
 

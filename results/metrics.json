@@ -1,0 +1,95 @@
+{
+  "dataset": "Sleep-EDF Expanded, Sleep Cassette, first night, 10 nights per age group",
+  "nights": 30,
+  "epochs_scored": 36839,
+  "ai_only": {
+    "agreement": 0.7971,
+    "kappa": 0.7197,
+    "median_night_kappa": 0.7113,
+    "f1_by_stage": {
+      "W": 0.8981,
+      "N1": 0.3309,
+      "N2": 0.8223,
+      "N3": 0.6916,
+      "R": 0.8341
+    }
+  },
+  "with_review": {
+    "confidence_cutoff": 0.6734,
+    "share_of_epochs_reviewed": 0.2,
+    "errors_caught_by_review": 0.4792,
+    "agreement_after_review": 0.8944,
+    "error_rate_in_flagged": 0.4861,
+    "error_rate_in_unflagged": 0.1321
+  },
+  "by_age_group": {
+    "25 to 34": {
+      "nights": 10,
+      "agreement": 0.8349,
+      "kappa": 0.7751,
+      "flagged_share": 0.1845,
+      "agreement_after_review": 0.9206
+    },
+    "50 to 60": {
+      "nights": 10,
+      "agreement": 0.7919,
+      "kappa": 0.7083,
+      "flagged_share": 0.1907,
+      "agreement_after_review": 0.885
+    },
+    "66 to 101": {
+      "nights": 10,
+      "agreement": 0.7737,
+      "kappa": 0.6775,
+      "flagged_share": 0.22,
+      "agreement_after_review": 0.8833
+    }
+  },
+  "review_curve": [
+    {
+      "review_share": 0,
+      "agreement": 0.7971,
+      "errors_caught": 0.0
+    },
+    {
+      "review_share": 0.05,
+      "agreement": 0.8269,
+      "errors_caught": 0.1468
+    },
+    {
+      "review_share": 0.1,
+      "agreement": 0.8516,
+      "errors_caught": 0.2686
+    },
+    {
+      "review_share": 0.15,
+      "agreement": 0.8737,
+      "errors_caught": 0.3774
+    },
+    {
+      "review_share": 0.2,
+      "agreement": 0.8944,
+      "errors_caught": 0.4792
+    },
+    {
+      "review_share": 0.25,
+      "agreement": 0.9112,
+      "errors_caught": 0.5623
+    },
+    {
+      "review_share": 0.3,
+      "agreement": 0.9266,
+      "errors_caught": 0.6383
+    },
+    {
+      "review_share": 0.4,
+      "agreement": 0.9494,
+      "errors_caught": 0.7504
+    },
+    {
+      "review_share": 0.5,
+      "agreement": 0.9674,
+      "errors_caught": 0.8393
+    }
+  ]
+}
